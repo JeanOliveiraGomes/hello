@@ -9,5 +9,3 @@ hello_page:
   defaults:
     template: 'base.html.twig'
 
-
-  

@@ -11,10 +11,8 @@ class IndexController extends Controller
     /**
      * @Route("/home", name="home")
      */
-     public function number()
+     public function sejabemvindo()
     {
-        $number = mt_rand(0, 100);
-
         return new Response(
             '<html><body>Seja bem vindo</body></html>'
         );
